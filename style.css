@@ -19,14 +19,7 @@ body {
   font-family: "Exo 2", serif;
 }
 
-.menu_icon i{
-  color: white;
-  font-size: 2rem;
-}
 
-.menu_icon{
-  display: none;
-}
 
 .section__container {
   padding: 5rem 1rem;
@@ -85,6 +78,7 @@ nav {
 .nav__links a{
   text-decoration: none;
   color: var(--text-dark);
+
 }
 
 a:hover{
@@ -313,7 +307,16 @@ footer h4{
   padding: 5px;
   font-size: 1.2rem;
   cursor: pointer;
+  transition: all .3s linear;
+  display: inline-block;
+  
+  
 }
+
+.social__icons i:hover {
+  transform: rotate(360deg);
+}
+
 
 footer p{
   font-style: italic;
