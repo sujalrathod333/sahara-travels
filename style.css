@@ -371,6 +371,7 @@ border-radius: 2rem;
 
   input, textarea{
     width: 15rem;
+    padding: 0rem;
   }
 
   .nav__links{
@@ -379,17 +380,18 @@ border-radius: 2rem;
     font-size: .8rem;
   }
 
+  .custom-shape-divider-bottom-1738171026 svg {
+    height: 1rem;
+    
+  }
+
+
 }
 
 
 @media (min-width: 640px) {
   .nav__links {
     display: flex;
-  }
-
-
-  .custom-shape-divider-bottom-1738171026 svg {
-    height: 1rem;
   }
 
  
